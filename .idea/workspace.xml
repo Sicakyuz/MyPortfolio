@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ab051a1-a72d-404e-972a-82f7503d4478" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyPorfolio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/530C0EBD-2687-4267-BE04-A4295DAC70D5_1_105_c.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/PHOTO-2024-05-30-16-58-28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/diabet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/diabet/breast_cancer_distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/pexels-katetrifo-6414318.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/pexels-thepaintedsquare-583848.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Images/reviews.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Videos/Customer Segmentation and CLV prediction tool.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Videos/NLP_app.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Videos/churn.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/Videos/unsuperwised.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/project_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/projects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cover_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publications.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hBuboHdKCsfokIhrjp46HXqmaI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.MyPorfolio.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/asmir/Desktop/MyPortfolio/Portfolio&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Projects/Videos" />
+      <recent name="$PROJECT_DIR$/Projects/Images" />
+      <recent name="$PROJECT_DIR$/Projects/Images/diabet" />
+      <recent name="$PROJECT_DIR$/Projects" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyPorfolio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyPorfolio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.MyPorfolio" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ab051a1-a72d-404e-972a-82f7503d4478" name="Changes" comment="" />
+      <created>1717079865294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717079865294</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MyPorfolio.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
