@@ -62,7 +62,9 @@ def project_3_page():
     st.markdown("""
             To see the full demonstration of the project, including the interactive Streamlit application and results, please see the following video:
             """)
-    st.video("/Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/Videos/NLP_app.mov")
+    st.markdown("""
+            [Watch the video on Google Drive](https://drive.google.com/file/d/1vOMEd_m3s_DTNirt2MJ3NIGlqV_hS4PG/view?usp=share_link)
+            """)
 
     st.markdown("<h5></i>Click here to see the link and download the application \U0001F447</i></h5>",
                 unsafe_allow_html=True)

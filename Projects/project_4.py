@@ -95,7 +95,9 @@ def project_4_page():
     st.markdown("""
                 To see the full demonstration of the project, including the interactive Streamlit application and results, please see the following video:
                 """)
-    st.video("/Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/Videos/Customer Segmentation and CLV prediction tool.mov")
+    st.markdown("""
+            [Watch the video on Google Drive](https://drive.google.com/file/d/1acOJykQdrSbKpdodZiw7I_o1DxcloU1b/view?usp=share_link)
+            """)
     st.write("")
 
     st.markdown("Click [here](https://customercltv.streamlit.app/) to try the app.")
