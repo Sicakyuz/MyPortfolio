@@ -5,14 +5,33 @@ from publications import publications_page
 from contact import contact_page
 import streamlit.components.v1 as components
 from Projects.projects import projects_page
+import streamlit_option_menu as om
 
-st.set_page_config(page_title="My Portfolio", page_icon=":chart_with_upwards_trend:")
+
+st.set_page_config(page_title="My Portfolio", page_icon=":chart_with_upwards_trend:",initial_sidebar_state="expanded",layout="centered")
 
 # Define pages
 
+st.markdown(
+    """
+    <style>
+    /* Sidebar styling */
+    .css-1d391kg {  /* Class name for Streamlit sidebar */
+        background-color: #f0f4f8 !important;  /* Sidebar background color */
+        padding: 10px;
+        border-radius: 10px;  /* Sidebar border radius */
+    } </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+# Sidebar styling
 
     # Sidebar configuration
 with st.sidebar:
+
     st.image("/Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/Images/PHOTO-2024-05-30-16-58-28.jpg", width=300)
     st.write("# ÇİĞDEM SICAKYÜZ")
 
@@ -39,11 +58,39 @@ with st.sidebar:
         </div>
         """, unsafe_allow_html=True)
     st.sidebar.title("")
+    st.markdown(
+        """
+        <style>
+        /* Expander bileşeninin iç ve dış kenarlıkları */
+        [data-testid="stExpander"] {
+            background-color: #f0f9ff; /* İç arka plan rengi (daha açık mavi) */
+            border: 1px solid #d0d0d0; /* Dış kenarlık rengi (ince gri) */
+            border-radius: 10px; /* Köşeleri yuvarlama */
+            padding: 0; /* İçerik ile kenarlık arasındaki mesafeyi kaldırma */
+            box-shadow: none;
+            margin: 0; /* Kenarlık dışındaki boşluğu kaldırma */
+        }
+        /* Expander başlığının rengi */
+        [data-testid="stExpander"] > div:first-child {
+            color: #0277bd; /* Başlığın rengi (koyu mavi) */
+            margin: 0; /* Başlık ile içeriğin arasındaki boşluğu kaldırma */
+            padding: 0; /* Başlık içindeki paddingi kaldırma */
+        }
+        /* Expander içindeki metnin rengi */
+        [data-testid="stExpander"] div[data-testid="stMarkdownContainer"] {
+            color: #000000; /* İçerik metninin rengi (siyah) */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
     st.sidebar.title("EDUCATION")
 
     # Expander oluşturma
     with st.sidebar.expander("EDUCATION"):
+        st.markdown('</div>', unsafe_allow_html=True)
+
         phd_text = "**Ph.D. in Industrial Engineering (2019)**\nÇukurova University, Adana, Turkey\n"
         msc_text = "**M.Sc. in Industrial Engineering (2009)**\nUniversität Bremen, Bremen, Germany\n"
         bs_text = "**B.S. in Industrial Engineering (2001)**\nOsmangazi University, Eskişehir, Turkey\n"
@@ -133,7 +180,40 @@ page = streamlit_option_menu.option_menu(
             menu_icon="cast",
             default_index=0,
             orientation="horizontal",
-        )
+            styles={
+        "container": {
+            "padding": "5px",
+            "background-color": "#f0f4f8",  # Menü arka plan rengi
+            "border-radius": "10px",  # Köşe yuvarlama
+        },
+        "icon": {
+            "color": "#0277bd",  # İkon rengi
+            "font-size": "22px",  # İkon boyutu
+            "transition": "color 0.3s ease",  # Hover geçiş efekti
+        },
+        "nav-link": {
+            "font-size": "16px",
+            "text-align": "center",
+            "margin": "0 15px",
+            "color": "#333",  # Yazı rengi
+            "border-radius": "8px",
+            "background-color": "#e0f7fa",  # Arka plan rengi
+            "padding": "8px 16px",
+            "transition": "background-color 0.3s ease, transform 0.3s ease",
+        },
+        "nav-link:hover": {
+            "background-color": "#b2ebf2",  # Hover arka plan rengi
+            "transform": "scale(1.05)",  # Hover animasyonu
+        },
+        "nav-link-selected": {
+            "background-color": "#0288d1",  # Seçili menü arka plan rengi
+            "color": "#ffffff",  # Seçili menü yazı rengi
+            "border-radius": "8px",
+            "padding": "8px 16px",
+        },
+    }
+)
+
 
         # Render the selected page
 

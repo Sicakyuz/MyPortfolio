@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-
 def project_4_page():
 
 

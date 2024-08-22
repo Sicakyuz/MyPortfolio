@@ -13,9 +13,11 @@ from Projects.project_9 import project_9_page
 
 
 def projects_page(project_page=None):
+
     # Proje verileri
     projects = [
         {
+
             "name": "Project 1",
             "title": "**Breast Cancer Prediction**",
             "description": "Clustering and Analysis for Breast Cancer Dataset",
@@ -25,7 +27,7 @@ def projects_page(project_page=None):
         {
             "name": "Project 2",
             "title": "**Prediction of Diabetes Risk**",
-            "description": "Predcition Diabet Risk with Random Forest Algorithm",
+            "description": "Prediction Diabet Risk with Random Forest Algorithm",
             "image_path": "diabet.png",  # Dosya yolunu düzeltin
             "detail_function": project_2_page  # Henüz tanımlanmadı
         },
@@ -52,9 +54,9 @@ def projects_page(project_page=None):
         },
         {
             "name": "Project 6",
-            "title": "Göğüs Kanseri Teşhisi için Kümeleme Projesi",
-            "description": "Kümeleme Projesi",
-            "image_path": "img_1.png",  # Dosya yolunu düzeltin
+            "title": "Hausprice Prediction Project",
+            "description": "Hausprice Prediction Project",
+            "image_path": "haus.jpeg",  # Dosya yolunu düzeltin
             "detail_function": project_6_page  # Detay fonksiyonu
         },
         {
@@ -80,29 +82,44 @@ def projects_page(project_page=None):
         },
         # Diğer projeler
     ]
+    # Define custom CSS to set the background color
+
 
     # CSS ile tasarımı düzenle
+
     st.markdown(
         """
         <style>
         .project-card {
             display: flex;
             align-items: flex-start;
-            background-color: #f5f5f5;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+            background-color: #f5f5f5; /* İç arka plan rengi (açık gri) */
+            padding: 20px; /* İçerik ile kenarlar arasındaki boşluk */
+            margin-top: 80px; /* Üstten boşluk */
+            margin-bottom: 2px; /* Alttan boşluk */
+            border-radius: 10px; /* Köşeleri yuvarlama */
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Gölgeler */
+            position: relative;
+        }
+        .project-card::before {
+            content: "";
+            position: absolute;
+            top: -10px; /* Üstten boşluk */
+            left: 0;
+            width: 100%;
+            height: 3px; /* Çubuğun yüksekliği */
+            background-color: #d1cfcf; /* Çubuğun rengi (açık gri) */
+            border-radius: 5px 5px 0 0; /* Yuvarlatılmış köşeler (opsiyonel) */
         }
         .project-image {
             border-radius: 10px;
-            margin-right: 20px;
+            margin-right: 20px; /* Resim ile içerik arasındaki boşluk */
             flex-shrink: 0;  /* Resimlerin boyutunu kartın içinde sabit tutar */
             width: 200px;    /* Resim genişliği */
-            height: 200px;   /* Resim yüksekliği */
+            height: 150px;   /* Resim yüksekliği */
         }
         .project-info {
-        color: black;  /* Yazı rengi */
+            color: black;  /* Yazı rengi */
         }
         </style>
         """,
@@ -120,8 +137,8 @@ def projects_page(project_page=None):
                     <div class="project-card">
                         <img src="data:image/png;base64,{get_base64_encoded_image(f"Projects/Images/{project.get('image_path', '')}")}" class="project-image">
                         <div>
-                            <h3>{project.get("name", "")}</h3>
-                            <p>{project.get("description", "")}</p>
+                            <h3>{project.get("description", "")}</h3>
+                            <p>{project.get("name", "")}</p>
                         </div>
                     </div>
                     """,
