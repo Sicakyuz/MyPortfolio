@@ -31,7 +31,7 @@ def cover_page():
     st.write("This is the cover page of my interactive portfolio.")
 
     # Load image
-    image_path = "/Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/Images/pexels-thepaintedsquare-3361483.jpg"
+    image_path = "//Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/Images/pexels-thepaintedsquare-3361483.jpg"
     img = Image.open(image_path)
 
     # Resize image

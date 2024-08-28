@@ -32,7 +32,7 @@ st.markdown(
     # Sidebar configuration
 with st.sidebar:
 
-    st.image("/Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/Images/PHOTO-2024-05-30-16-58-28.jpg", width=300)
+    st.image("/Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/myphoto/myprofile.png", width=300)
     st.write("# ÇİĞDEM SICAKYÜZ")
 
     st.markdown("""

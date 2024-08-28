@@ -61,9 +61,9 @@ def projects_page(project_page=None):
         },
         {
             "name": "Project 7",
-            "title": "Göğüs Kanseri Teşhisi için Kümeleme Projesi",
-            "description": "Kümeleme Projesi",
-            "image_path": "img_1.png",  # Dosya yolunu düzeltin
+            "title": "Time Series Analysis of Turkey's Energy Demand",
+            "description": "Prediction and Analysis of Energy Consumption Trends Across Turkey",
+            "image_path": "energyTurkey.jpeg",  # Dosya yolunu düzeltin
             "detail_function": project_7_page  # Detay fonksiyonu
         },
         {

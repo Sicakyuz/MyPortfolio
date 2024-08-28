@@ -69,5 +69,4 @@ def project_3_page():
     st.markdown("<h5></i>Click here to see the link and download the application \U0001F447</i></h5>",
                 unsafe_allow_html=True)
 
-    # https://breastcancerpredictionapp.streamlit.app/
     st.markdown("**[App](https://sentiment06.streamlit.app/)**", unsafe_allow_html=True)

@@ -14,6 +14,7 @@ def project_6_page():
     image = Image.open("/Users/asmir/Desktop/MyPortfolio/Portfolio/Projects/Images/haus.jpeg")
     st.image(image, caption='', use_column_width=True)
 
+
     # Project Objectives
     st.header("Objectives")
     st.write("""
